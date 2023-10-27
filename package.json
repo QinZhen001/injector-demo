@@ -1,0 +1,16 @@
+{
+  "name": "injector-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/QinZhen001/injector-demo.git",
+  "author": "qinzhen <qz519189636@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "injector:dev": "pnpm --filter=injector run dev",
+    "injector:build": "pnpm --filter=injector run build",
+    "demo:dev": "pnpm --filter=demo run dev"
+  },
+  "devDependencies": {
+    "npm-run-all": "4.1.5"
+  }
+}
